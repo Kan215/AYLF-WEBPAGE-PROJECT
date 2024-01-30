@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.myheader{
+    background-color: yellow;
+    border-radius: 4px;
+    color: #fff;
+    top: 0;
+    position: fixed;
+    flex: 1;
+    width: 100%;
+    height: 100px;
+}
+
+.myfooter{
+    background-color: blue;
+    bottom: 0;
+    border: 4px;
+    flex: 1;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+.all-icons{
+    margin: 0;
+    height: 50px;
+    position: fixed;
+}
