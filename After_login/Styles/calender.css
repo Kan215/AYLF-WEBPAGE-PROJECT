@@ -1,0 +1,61 @@
+body{
+    display: inline-block;
+}
+
+.btn-n-cal{
+    margin-top: 3%;
+    background-color: red;
+    color: black;
+}
+.mtn-btn{  
+    margin-top: 3%;
+    background-color: red;
+    color: black;
+}
+.all-btn{
+    top: 0%;
+    border: 4px;
+    border-radius: 4px;
+    margin-left: 10%;
+}
+.btn-n-day{
+    margin-top: 3%;
+    background-color: red;
+    color: black;
+}
+.tbl-cls{
+    width: 100vw;
+    height: 100vw;
+    border-collapse: collapse;
+}
+.tbl-cls th,
+.tbl-cls td {
+  padding: 10px; 
+  border: 1px solid black; 
+}
+.tbl-head th{
+    height: 30px;
+    margin-bottom: 0%;
+    text-align: center;
+    margin-top: 0%;
+}
+.wik-1{
+    text-align: right;
+    vertical-align: top;
+}
+.wik-2{
+    text-align: right;
+    vertical-align: top;
+}
+.wik-3{
+    text-align: right;
+    vertical-align: top;
+}
+.wik-4{
+    text-align: right;
+    vertical-align: top;
+}
+.wik-5{
+    text-align: right;
+    vertical-align: top;
+}

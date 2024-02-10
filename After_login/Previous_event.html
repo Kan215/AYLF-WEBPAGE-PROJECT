@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Scrip_files/event_file.js"></script>
+    <link rel="stylesheet" href="Styles/events.css">
+</head>
+<body>
+    <section class="header-info" style="background-image: url(Images/anna-wangler-_GqwoiT7QY8-unsplash.jpg);"></section>
+    <div class="myimage">
+        <h1>-- IMAGES OF PREVIOUS EVENT--</h1>
+    </div>
+    <!--
+        <section>  
+    <div class="image-container" id="container-info">
+        <img src="Images/breno-machado-in9-n0JwgZ0-unsplash.jpg" alt="image not found">
+        <img src="Images/jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="image two not found">
+        <img src="Images/joshua-sortino-xZqr8WtYEJ0-unsplash.jpg" alt="image three not found">
+    </div>
+    </section>
+    -->
+    <main>
+        <div class="gall-nav">
+            <img src="Images/Arrow-PNG-Picture-left.webp" id="backButton">
+            <div class="gallery">
+                <div>
+                    <span><img src="Images/breno-machado-in9-n0JwgZ0-unsplash.jpg" alt="image not found"></span>
+                    <span><img src="Images/jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="image two not found"></span>
+                    <span><img src="Images/joshua-sortino-xZqr8WtYEJ0-unsplash.jpg" alt="image three not found"></span>
+                </div>
+                <div>
+                    <span><img src="Images/breno-machado-in9-n0JwgZ0-unsplash.jpg" alt="image not found"></span>
+                    <span><img src="Images/jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="image two not found"></span>
+                    <span><img src="Images/joshua-sortino-xZqr8WtYEJ0-unsplash.jpg" alt="image three not found"></span>
+                </div>
+                <div>
+                    <span><img src="Images/breno-machado-in9-n0JwgZ0-unsplash.jpg" alt="image not found"></span>
+                    <span><img src="Images/jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="image two not found"></span>
+                    <span><img src="Images/joshua-sortino-xZqr8WtYEJ0-unsplash.jpg" alt="image three not found"></span>
+                </div>
+            </div>
+            <img src="Images/5-57252_double-arrow-red-double-arrow-red-png.png" id="nextButton">
+        </div>
+    </main>
+
+    <script>
+        let scrollContainer = document.querySelector(".gallery");
+        let nextbutton = document.getElementById("nextButton");
+        let backbutton = document.getElementById("backButton");
+
+
+        nextbutton.addEventListener("click", ()=>{
+            scrollContainer.scrollLeft += 1800;
+            scrollContainer.style.scrollBehavior = "smooth"
+        });
+
+        backbutton.addEventListener("click", ()=>{
+            scrollContainer.scrollLeft -= 1800;
+            scrollContainer.style.scrollBehavior = "smooth"
+        });
+    </script>
+</body>
+</html>
