@@ -44,12 +44,21 @@
             <img src="Images/5-57252_double-arrow-red-double-arrow-red-png.png" id="nextButton">
         </div>
     </main>
+    <section>
+        <div>
+            <footer class="ftr-info">
+                <div class="all-textarea">
+                <input type="email" name="email" placeholder="enter your email" class="text-field">
+                <button type="submit" class="sbmit-btn">Subscribe</button>
+                </div>
+            </footer>
+        </div>
+    </section>
 
     <script>
         let scrollContainer = document.querySelector(".gallery");
         let nextbutton = document.getElementById("nextButton");
         let backbutton = document.getElementById("backButton");
-
 
         nextbutton.addEventListener("click", ()=>{
             scrollContainer.scrollLeft += 1800;
